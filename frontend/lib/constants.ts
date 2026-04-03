@@ -1,0 +1,27 @@
+// lib/constants.ts
+export const SPINNER_VERBS = [
+  "Accomplishing", "Actioning", "Actualizing", "Architecting", "Baking", "Beaming", "Beboppin",
+  "Befuddling", "Billowing", "Blanching", "Bloviating", "Boogieing", "Boondoggling", "Booping",
+  "Bootstrapping", "Brewing", "Bunning", "Burrowing", "Calculating", "Canoodling", "Caramelizing",
+  "Cascading", "Catapulting", "Celebrating", "Channeling", "Choreographing", "Churning", "Coalescing",
+  "Cogitating", "Combobulating", "Composing", "Computing", "Concocting", "Considering", "Cooking",
+  "Crafting", "Creating", "Crunching", "Crystallizing", "Cultivating", "Deciphering", "Deliberating",
+  "Determining", "Discombobulating", "Drizzling", "Ebbing", "Effecting", "Elucidating", "Embellishing",
+  "Enchanting", "Envisioning", "Evaporating", "Fermenting", "Finagling", "Flambéing", "Flowing",
+  "Flummoxing", "Fluttering", "Forging", "Forming", "Frolicking", "Frosting", "Gallivanting",
+  "Galloping", "Garnishing", "Generating", "Gesticulating", "Germinating", "Grooving", "Harmonizing",
+  "Hashing", "Hatching", "Herding", "Honking", "Hullaballooing", "Hyperspacing", "Ideating",
+  "Imagining", "Improvising", "Incubating", "Inferring", "Infusing", "Ionizing", "Jitterbugging",
+  "Kneading", "Leavening", "Levitating", "Lollygagging", "Manifesting", "Marinating", "Meandering",
+  "Metamorphosing", "Misting", "Moonwalking", "Moseying", "Mulling", "Mustering", "Musing",
+  "Nebulizing", "Nesting", "Newspapering", "Noodling", "Nucleating", "Orbiting", "Orchestrating",
+  "Osmosing", "Perambulating", "Percolating", "Perusing", "Philosophising", "Photosynthesizing",
+  "Pollinating", "Pondering", "Pontificating", "Pouncing", "Precipitating", "Processing", "Proofing",
+  "Propagating", "Puttering", "Puzzling", "Quantumizing", "Razzle-dazzling", "Recombobulating",
+  "Reticulating", "Roosting", "Ruminating", "Scampering", "Schlepping", "Scurrying", "Seasoning",
+  "Shenaniganing", "Shimmying", "Simmering", "Skedaddling", "Sketching", "Slithering", "Smooshing",
+  "Spelunking", "Spinning", "Sprouting", "Stewing", "Sublimating", "Swirling", "Swooping", "Symbioting",
+  "Synthesizing", "Tempering", "Thinking", "Thundering", "Tinkering", "Tomfoolering", "Transfiguring",
+  "Transmuting", "Twisting", "Undulating", "Unfurling", "Unravelling", "Vibing", "Waddling", "Wandering",
+  "Warping", "Whirring", "Whisking", "Wibbling", "Working", "Wrangling", "Zesting", "Zigzagging"
+];

@@ -1,0 +1,59 @@
+@import url("https://unpkg.com/@algolia/sitesearch@latest/dist/search.min.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+  }
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+  }
+}
+
+/* --- Algolia "Zinc" Chat Theme --- */
+
+/* 1. Make the injected input transparent to match your UI */
+#algolia-composer .aa-Form {
+  @apply !bg-transparent !border-none !shadow-none !p-0 !m-0;
+}
+
+#algolia-composer .aa-Input {
+  @apply !text-sm !py-2.5 !bg-transparent !outline-none !border-none !w-full;
+  @apply !text-zinc-900 dark:!text-zinc-100 placeholder:!text-zinc-500;
+}
+
+/* 2. Float suggestions ABOVE the composer */
+.aa-Panel {
+  @apply !fixed !bottom-[85px] !top-auto !shadow-2xl !border-zinc-200 dark:!border-zinc-800;
+  @apply !bg-white dark:!bg-zinc-900 !rounded-2xl !max-w-[768px] !left-1/2;
+  transform: translateX(-50%) !important;
+  width: calc(100% - 2rem) !important;
+}
+
+/* 3. Match Item hover states */
+.aa-Item {
+  @apply !p-4 !transition-colors !border-b !border-zinc-50 dark:!border-zinc-800/50 last:!border-none;
+}
+
+.aa-Item[aria-selected="true"] {
+  @apply !bg-zinc-100 dark:!bg-zinc-800;
+}
+
+/* Hide default Algolia icons for a clean "Message..." look */
+.aa-SubmitButton, .aa-LoadingIndicator, .aa-InputWrapperPrefix {
+  display: none !important;
+}
+
+@layer utilities {
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar { width: 8px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-zinc-300 dark:bg-zinc-800 border-2 border-transparent bg-clip-content;
+  }
+}
